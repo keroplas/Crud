@@ -1,0 +1,61 @@
+
+
+.contenedor{
+    width: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contenedor h2{
+    font-size: 42px;
+    margin: 20px;
+}
+
+.tarea{
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.tarea input{
+    width: 78%;
+    height: 34px;
+    font-size: 19px;
+    padding-left: 17px;
+}
+
+.tarea button{
+    width: 20%;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+
+.listaTareas{
+    margin-bottom: 11%;
+}
+.listaTareas ul{
+    padding-left: 0;
+    margin: 0 13px;
+}
+.listaTareas li{
+    font-size: 21px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    text-align: left;
+    padding: 10px 15px;
+  
+}
+
+.listaTareas li span{
+   
+    border-radius: 50%;
+    padding: 1px 8px; 
+    cursor: pointer;
+    height: 26px;
+}
+.listaTareas li span:hover{
+    background-color: rgb(173, 170, 170);
+}
